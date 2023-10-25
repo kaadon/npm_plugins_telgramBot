@@ -28,3 +28,6 @@ export function pre(string) {
 export function preCode(string) {
     return `<pre><code>${string}</code></pre>`
 }
+export function tgEmoji(emojiId,text) {
+    return `<tg-emoji emoji-id="${emojiId}">${text}</tg-emoji>`
+}
