@@ -1,6 +1,6 @@
 {
   "name": "@kaadon.com/telegrambot",
-  "version": "0.0.9",
+  "version": "0.1.01",
   "description": "kaadon.com's plugins telegramBot",
   "keywords": [
     "kaadon",
@@ -32,7 +32,7 @@
     "dotenv": "^16.3.1"
   },
   "dependencies": {
-    "@types/node-telegram-bot-api": "0.61.8",
+    "@types/node-telegram-bot-api": "0.61.11",
     "node-telegram-bot-api": "0.63.0"
   }
 }
