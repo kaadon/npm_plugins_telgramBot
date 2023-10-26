@@ -37,7 +37,7 @@ class TelgramBot {
         bot.on("message", this.onMessage)
         bot.on("callback_query", this.onCallbackQuery)
         bot.on("polling_error", this.onPollingError)
-        bot.onText(/^\/[A-Za-z0-9]{4,}$/, this.onText);
+        bot.onText(/(^\/[A-Za-z0-9]{4,}$)|(^\/[A-Za-z0-9]{4,}@\w{2,}$)/, this.onText);
         this.bot = bot
         return this.bot
     }
